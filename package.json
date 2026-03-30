@@ -1,0 +1,22 @@
+{
+  "name": "sponsored-push",
+  "version": "0.0.1",
+  "description": "A prepare-commit-msg hook that injects sponsored ads into your git commits. The future of developer monetisation.",
+  "main": "bin/sponsored-push.js",
+  "bin": {
+    "sponsored-push": "bin/sponsored-push.js"
+  },
+  "scripts": {
+    "prepare": "node scripts/install-hook.js"
+  },
+  "author": "Tom Hackshaw",
+  "license": "Unlicense",
+  "engines": {
+    "node": ">=24"
+  },
+  "files": [
+    "bin/",
+    "scripts/",
+    "README.md"
+  ]
+}
